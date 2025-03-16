@@ -1,0 +1,118 @@
+ID,Year,Region,ParkName,EcosystemType,IntegrityStatus,IntegrityTrend
+1,2022,Northwest Territories,Aulavik National Park of Canada,Freshwater,GOOD,Stable
+2,2022,Northwest Territories,Aulavik National Park of Canada,Tundra,POOR,Stable
+3,2022,Nunavut,Auyuittuq National Park of Canada,Glaciers,FAIR,Declining
+4,2022,Nunavut,Auyuittuq National Park of Canada,Tundra,GOOD,Stable
+5,2022,Alberta,Banff National Park of Canada,Freshwater,POOR,Declining
+6,2022,Alberta,Banff National Park of Canada,Forest,GOOD,Improving
+7,2022,Alberta,Banff National Park of Canada,Tundra,GOOD,Improving
+8,2022,Ontario,Bruce Peninsula National Park of Canada,Forest,GOOD,Improving
+9,2022,Ontario,Bruce Peninsula National Park of Canada,Freshwater,GOOD,Stable
+10,2022,Ontario,Bruce Peninsula National Park of Canada,Shrublands,FAIR,Stable
+11,2022,Nova Scotia,Cape Breton Highlands National Park of Canada,Forest,POOR,Stable
+12,2022,Nova Scotia,Cape Breton Highlands National Park of Canada,Freshwater,GOOD,Stable
+13,2022,Nova Scotia,Cape Breton Highlands National Park of Canada,Wetlands,GOOD,Stable
+14,2022,Alberta,Elk Island National Park of Canada,Grasslands,POOR,Declining
+15,2022,Alberta,Elk Island National Park of Canada,Forest,FAIR,Declining
+16,2022,Alberta,Elk Island National Park of Canada,Freshwater,GOOD,Stable
+17,2022,Quebec,Forillon National Park of Canada,Coastal/Marine,GOOD,Improving
+18,2022,Quebec,Forillon National Park of Canada,Forest,POOR,Stable
+19,2022,Quebec,Forillon National Park of Canada,Freshwater,GOOD,Stable
+20,2022,New Brunswick,Fundy National Park of Canada,Freshwater,GOOD,Stable
+21,2022,New Brunswick,Fundy National Park of Canada,Forest,GOOD,Stable
+22,2022,New Brunswick,Fundy National Park of Canada,Wetlands,GOOD,Stable
+23,2022,Ontario,Georgian Bay Islands National Park of Canada,Wetlands,GOOD,Improving
+24,2022,Ontario,Georgian Bay Islands National Park of Canada,Coastal/Marine,GOOD,Stable
+25,2022,Ontario,Georgian Bay Islands National Park of Canada,Forest,GOOD,Stable
+26,2022,British Columbia,Glacier National Park of Canada,Forest,FAIR,Stable
+27,2022,British Columbia,Glacier National Park of Canada,Freshwater,GOOD,Stable
+28,2022,British Columbia,Glacier National Park of Canada,Tundra,POOR,Declining
+29,2022,Saskatchewan,Grasslands National Park of Canada,Grasslands,FAIR,Stable
+30,2022,Newfoundland and Labrador,Gros Morne National Park of Canada,Freshwater,GOOD,Stable
+31,2022,Newfoundland and Labrador,Gros Morne National Park of Canada,Forest,FAIR,Improving
+32,2022,Newfoundland and Labrador,Gros Morne National Park of Canada,Tundra,FAIR,Declining
+33,2022,British Columbia,Gulf Islands National Park Reserve of Canada,Coastal/Marine,POOR,Stable
+34,2022,British Columbia,Gulf Islands National Park Reserve of Canada,Forest,FAIR,Improving
+35,2022,British Columbia,Gulf Islands National Park Reserve of Canada,Freshwater,FAIR,Improving
+36,2022,British Columbia,Gwaii Haanas National Park Reserve of Canada and Haida Heritage Site,Coastal/Marine,GOOD,Stable
+37,2022,British Columbia,Gwaii Haanas National Park Reserve of Canada and Haida Heritage Site,Forest,GOOD,Improving
+38,2022,British Columbia,Gwaii Haanas National Park Reserve of Canada and Haida Heritage Site,Freshwater,GOOD,Stable
+39,2022,Yukon,Ivvavik National Park of Canada,Freshwater,GOOD,Stable
+40,2022,Yukon,Ivvavik National Park of Canada,Tundra,POOR,Declining
+41,2022,Alberta,Jasper National Park of Canada,Forest,FAIR,Stable
+42,2022,Alberta,Jasper National Park of Canada,Freshwater,GOOD,Stable
+43,2022,Alberta,Jasper National Park of Canada,Tundra,POOR,Declining
+44,2022,Nova Scotia,Kejimkujik National Park and National Historic Site of Canada,Coastal/Marine,FAIR,Improving
+45,2022,Nova Scotia,Kejimkujik National Park and National Historic Site of Canada,Forest,GOOD,Stable
+46,2022,Nova Scotia,Kejimkujik National Park and National Historic Site of Canada,Freshwater,GOOD,Stable
+47,2022,Nova Scotia,Kejimkujik National Park and National Historic Site of Canada,Wetlands,GOOD,Improving
+48,2022,Yukon,Kluane National Park and Reserve of Canada,Forest,FAIR,Declining
+49,2022,Yukon,Kluane National Park and Reserve of Canada,Freshwater,GOOD,Improving
+50,2022,Yukon,Kluane National Park and Reserve of Canada,Tundra,GOOD,Stable
+51,2022,British Columbia,Kootenay National Park of Canada,Forest,GOOD,Improving
+52,2022,British Columbia,Kootenay National Park of Canada,Freshwater,POOR,Stable
+53,2022,British Columbia,Kootenay National Park of Canada,Tundra,GOOD,Stable
+54,2022,New Brunswick,Kouchibouguac National Park of Canada,Coastal/Marine,GOOD,Stable
+55,2022,New Brunswick,Kouchibouguac National Park of Canada,Forest,GOOD,Stable
+56,2022,New Brunswick,Kouchibouguac National Park of Canada,Freshwater,GOOD,Declining
+57,2022,Quebec,La Mauricie National Park of Canada,Forest,FAIR,Declining
+58,2022,Quebec,La Mauricie National Park of Canada,Freshwater,FAIR,Improving
+59,2022,Quebec,La Mauricie National Park of Canada,Wetlands,POOR,Stable
+60,2022,Quebec,Mingan Archipelago National Park Reserve of Canada,Coastal/Marine,GOOD,Improving
+61,2022,Quebec,Mingan Archipelago National Park Reserve of Canada,Tundra,FAIR,Stable
+62,2022,Quebec,Mingan Archipelago National Park Reserve of Canada,Forest,GOOD,Stable
+63,2022,British Columbia,Mount Revelstoke National Park of Canada,Freshwater,GOOD,Stable
+64,2022,British Columbia,Mount Revelstoke National Park of Canada,Tundra,FAIR,Stable
+65,2022,British Columbia,Mount Revelstoke National Park of Canada,Forest,FAIR,Declining
+66,2022,Northwest Territories,Nahanni National Park Reserve of Canada,Forest,FAIR,Declining
+67,2022,Northwest Territories,Nahanni National Park Reserve of Canada,Freshwater,GOOD,Stable
+68,2022,Northwest Territories,Nahanni National Park Reserve of Canada,Tundra,GOOD,Improving
+69,2022,British Columbia,Pacific Rim National Park Reserve of Canada,Coastal/Marine,GOOD,Stable
+70,2022,British Columbia,Pacific Rim National Park Reserve of Canada,Forest,GOOD,Stable
+71,2022,British Columbia,Pacific Rim National Park Reserve of Canada,Freshwater,POOR,Declining
+72,2022,Ontario,Point Pelee National Park of Canada,Coastal/Marine,FAIR,Stable
+73,2022,Ontario,Point Pelee National Park of Canada,Forest,POOR,Declining
+74,2022,Ontario,Point Pelee National Park of Canada,Wetlands,GOOD,Improving
+75,2022,Saskatchewan,Prince Albert National Park of Canada,Forest,GOOD,Stable
+76,2022,Saskatchewan,Prince Albert National Park of Canada,Freshwater,POOR,Declining
+77,2022,Saskatchewan,Prince Albert National Park of Canada,Grasslands,FAIR,Improving
+78,2022,Prince Edward Island,Prince Edward Island National Park of Canada,Coastal/Marine,POOR,Declining
+79,2022,Prince Edward Island,Prince Edward Island National Park of Canada,Forest,POOR,Stable
+80,2022,Prince Edward Island,Prince Edward Island National Park of Canada,Freshwater,FAIR,Declining
+81,2022,Prince Edward Island,Prince Edward Island National Park of Canada,Wetlands,GOOD,Stable
+82,2022,Ontario,Pukaskwa National Park of Canada,Coastal/Marine,FAIR,Declining
+83,2022,Ontario,Pukaskwa National Park of Canada,Forest,GOOD,Stable
+84,2022,Ontario,Pukaskwa National Park of Canada,Freshwater,GOOD,Stable
+85,2022,Nunavut,Quttinirpaaq National Park of Canada,Freshwater,GOOD,Stable
+86,2022,Nunavut,Quttinirpaaq National Park of Canada,Tundra,GOOD,Stable
+87,2022,Manitoba,Riding Mountain National Park of Canada,Forest,POOR,Stable
+88,2022,Manitoba,Riding Mountain National Park of Canada,Freshwater,GOOD,Stable
+89,2022,Manitoba,Riding Mountain National Park of Canada,Grasslands,POOR,Stable
+90,2022,Nova Scotia,Sable Island National Park Reserve,Coastal/Marine,GOOD,Stable
+91,2022,Nova Scotia,Sable Island National Park Reserve,Freshwater,GOOD,Stable
+92,2022,Nunavut,Sirmilik National Park of Canada,Glaciers,GOOD,Declining
+93,2022,Nunavut,Sirmilik National Park of Canada,Tundra,FAIR,Declining
+94,2022,Newfoundland and Labrador,Terra Nova National Park of Canada,Coastal/Marine,GOOD,Stable
+95,2022,Newfoundland and Labrador,Terra Nova National Park of Canada,Forest,FAIR,Declining
+96,2022,Newfoundland and Labrador,Terra Nova National Park of Canada,Freshwater,GOOD,Stable
+97,2022,Newfoundland and Labrador,Terra Nova National Park of Canada,Wetlands,GOOD,Stable
+98,2022,Ontario,Thousand Islands National Park of Canada,Forest,GOOD,Stable
+99,2022,Ontario,Thousand Islands National Park of Canada,Freshwater,GOOD,Improving
+100,2022,Ontario,Thousand Islands National Park of Canada,Wetlands,GOOD,Stable
+101,2022,Newfoundland and Labrador,Torngat Mountains National Park,Freshwater,GOOD,Stable
+102,2022,Newfoundland and Labrador,Torngat Mountains National Park,Tundra,GOOD,Stable
+103,2022,Northwest Territories,Tuktut Nogait National Park of Canada,Tundra,GOOD,Stable
+104,2022,Northwest Territories,Tuktut Nogait National Park of Canada,Freshwater,GOOD,Stable
+105,2022,Yukon,Vuntut National Park of Canada,Tundra,GOOD,Stable
+106,2022,Yukon,Vuntut National Park of Canada,Wetlands,GOOD,Stable
+107,2022,Manitoba,Wapusk National Park of Canada,Wetlands,GOOD,Stable
+108,2022,Manitoba,Wapusk National Park of Canada,Coastal/Marine,GOOD,Stable
+109,2022,Alberta,Waterton Lakes National Park of Canada,Forest,FAIR,Improving
+110,2022,Alberta,Waterton Lakes National Park of Canada,Freshwater,POOR,Stable
+111,2022,Alberta,Waterton Lakes National Park of Canada,Grasslands,GOOD,Improving
+112,2022,Northwest Territories,Wood Buffalo National Park of Canada,Forest,FAIR,Declining
+113,2022,Northwest Territories,Wood Buffalo National Park of Canada,Wetlands,GOOD,Improving
+114,2022,Northwest Territories,Wood Buffalo National Park of Canada,Freshwater,POOR,Declining
+115,2022,British Columbia,Yoho National Park of Canada,Forest,GOOD,Improving
+116,2022,British Columbia,Yoho National Park of Canada,Freshwater,POOR,Stable
+117,2022,British Columbia,Yoho National Park of Canada,Tundra,GOOD,Stable
