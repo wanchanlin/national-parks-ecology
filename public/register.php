@@ -28,9 +28,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <html lang="en">
 <head>
     <title>Register</title>
+    <link rel="stylesheet" href="../styles.css">
+    
 </head>
 <body>
-    <h2>Register</h2>
+    <h1>Register</h1>
+    <section class="register-form">
     <?php if (isset($_SESSION['error'])) { echo "<p style='color:red'>" . $_SESSION['error'] . "</p>"; unset($_SESSION['error']); } ?>
     <form method="POST">
         <label>First Name:</label>
@@ -48,5 +51,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <button type="submit">Register</button>
     </form>
     <a href="../index.php">Back to Login</a>
+</section>
 </body>
 </html>

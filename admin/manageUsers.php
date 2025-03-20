@@ -51,25 +51,12 @@ $result = $stmt->get_result();
 <html lang="en">
 <head>
     <title>Manage Users</title>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        table, th, td {
-            border: 1px solid black;
-        }
-        th, td {
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
 <?php include('../reusable/nav.php'); ?>
+<section>
     <h2>Manage Users</h2>
     <p>Welcome, <?php echo htmlspecialchars($_SESSION['first'] . " " . $_SESSION['last']); ?>!</p>
     <a href="createUser.php">Add New User</a>
@@ -93,6 +80,7 @@ $result = $stmt->get_result();
     <!-- Display User List -->
     <?php if ($result->num_rows > 0): ?>
         <table>
+            
             <tr>
                 <th>ID</th>
                 <th>Name</th>
@@ -114,11 +102,12 @@ $result = $stmt->get_result();
                     </td>
                 </tr>
             <?php endwhile; ?>
+            </tbody>
         </table>
     <?php else: ?>
         <p>No users found.</p>
     <?php endif; ?>
-
+    </section>
 </body>
 </html>
 

@@ -31,9 +31,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html lang="en">
 <head>
     <title>Add User</title>
+        <link rel="stylesheet" href="../styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
 </head>
 <body>
+  
 <?php include('../reusable/nav.php'); ?>
+<section class="container-fluid ">
     <h2>Add New User</h2>
     <form method="POST">
         <label>First Name:</label>
@@ -57,5 +64,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <button type="submit">Create User</button>
     </form>
     <a href="manageUsers.php">Back to Manage Users</a>
+    </section>
+    <?php include('../reusable/footer.php'); ?>
 </body>
 </html>

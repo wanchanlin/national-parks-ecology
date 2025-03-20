@@ -68,9 +68,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html lang="en">
 <head>
     <title>Add Park</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
 </head>
 <body>
     <?php include('../reusable/nav.php'); ?>
+    <section class="container-fluid ">
     <h2>Add a New Park</h2>
     <form method="POST" action="addPark.php">
         <label>Park Name:</label>
@@ -121,5 +126,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </form>
 
     <a href="manageParks.php">Back to Manage Parks</a>
+    </section>
+    <?php include('../reusable/footer.php'); ?>
 </body>
 </html>

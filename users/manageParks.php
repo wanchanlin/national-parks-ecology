@@ -99,32 +99,17 @@ if (isset($_GET['delete_id'])) {
 <html lang="en">
 <head>
     <title>Manage Parks</title>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        table, th, td {
-            border: 1px solid black;
-        }
-        th, td {
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-        .thumbnail {
-            width: 100px;
-            height: auto;
-            object-fit: cover;
-        }
-    </style>
+   
+        <link rel="stylesheet" href="../styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
 </head>
 
 <body>
 <?php include('../reusable/nav.php'); ?>
-    <h2>Manage Parks</h2>
+<section class="container-fluid "> 
+<h2>Manage Parks</h2>
+    
     <p>Welcome, <?php echo htmlspecialchars($_SESSION['first'] . " " . $_SESSION['last']); ?>!</p>
     <a href="addPark.php">Add New Park</a>
     
@@ -235,7 +220,8 @@ if (isset($_GET['delete_id'])) {
     <?php else: ?>
         <p>No parks found.</p>
     <?php endif; ?>
-
+<section>
+<?php include('../reusable/footer.php'); ?>
 </body>
 </html>
 

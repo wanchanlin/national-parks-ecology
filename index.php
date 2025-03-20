@@ -36,20 +36,24 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Login</title>
+        <title>Login</title>
+        <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1>Login</h1>
+    <section class="login-form">
     <?php if (isset($_SESSION['error'])) { echo "<p style='color:red'>" . $_SESSION['error'] . "</p>"; unset($_SESSION['error']); } ?>
     <form method="POST">
+    
         <label>Email:</label>
         <input type="text" name="email" required>
         <br>
         <label>Password:</label>
         <input type="password" name="password" required>
         <br>
-        <button type="submit">Login</button>
+        <button type="submit">Login</button> or <a href="public/register.php">Register</a>
     </form>
-    <a href="public/register.php">Register</a>
+    </section>
+    
 </body>
 </html>

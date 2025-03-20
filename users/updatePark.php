@@ -69,10 +69,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html lang="en">
 <head>
     <title>Update Park</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
 </head>
 <body>
 <?php include('../reusable/nav.php'); ?>
-
+<section class="container-fluid ">
     <h2>Update Park</h2>
     <form method="POST" enctype="multipart/form-data">
         <label>Park Name:</label>
@@ -82,5 +84,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <button type="submit">Update Park</button>
     </form>
     <a href="manageParks.php">Back to Manage Parks</a>
+    </section>
 </body>
 </html>
