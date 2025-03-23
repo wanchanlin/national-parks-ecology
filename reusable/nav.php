@@ -4,7 +4,7 @@ if (session_status() === PHP_SESSION_NONE) {
 }
 ?>
 <nav id="navbar">
-    <div class="logo"><a href="../index.php">National Parks Ecology</a></div>
+    <div><a href="../index.php"><img style="width: 200px;" src="../images/logo.svg" alt="Logo"></a></div>
     <div>
         <ul class="nav-links">
             <li><a href="../index.php">Home</a></li>
