@@ -23,9 +23,21 @@ This application provides an interactive platform to explore ecological metrics 
 
 ## 📂 Project Structure
 
+national-parks-ecology/
+├── admin/               # Admin dashboard components
+├── images/              # Static image assets
+├── public/              # Publicly accessible files
+├── reusable/            # Reusable PHP components
+├── users/               # User-related functionalities
+├── .env-sample          # Sample environment configuration
+├── ecological.csv       # Ecological data
+├── nationalparks.csv    # National parks data
+├── users.sql            # SQL script for user table
+├── index.php            # Entry point and login page
+├── listParks.php        # Park listing page
+├── styles.css           # Stylesheet
+└── README.md            # Project documentation
 
-
-national-parks-ecology/ ├── admin/ # Admin dashboard components ├── images/ # Static image assets ├── public/ # Publicly accessible files ├── reusable/ # Reusable PHP components ├── users/ # User-related functionalities ├── .env-sample # Sample environment configuration ├── ecological.csv # Ecological data ├── nationalparks.csv # National parks data ├── users.sql # SQL script for user table ├── index.php # Entry point and login page ├── listParks.php # Park listing page ├── styles.css # Stylesheet └── README.md # Project documentation
 
 
 ---
