@@ -2,7 +2,7 @@
 
 A collaborative PHP-based web application that visualizes ecological data across Canada's national parks. This project was developed by **Tashrif**, **Joyce**, and **Gabi** to support environmental awareness and data-driven exploration.
 
-🔗 [Live Demo](https://national-parks-ecology.vercel.app)
+🔗 [Live Demo](https://lavender-dolphin-454296.hostingersite.com/users/manageParks.php)
 
 ---
 
